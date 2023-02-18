@@ -10,3 +10,4 @@ Pin mappings exist within rpicomms.h
 All telemtry data is sent through a Web Socket to an external web server, see details in 
 https://github.com/TyrantUT/brewberryWeb_Docker
 
+Modify the QT_WEB_URL #define in main.cpp to include your public IP
