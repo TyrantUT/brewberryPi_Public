@@ -18,8 +18,6 @@
         <file>Grains.png</file>
     </qresource>
     <qresource prefix="/recipes">
-        <file>Pumpkin Ale.xml</file>
         <file>bjcpStyleGuidelines.json</file>
-        <file>English Bitter.xml</file>
     </qresource>
 </RCC>

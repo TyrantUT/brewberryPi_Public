@@ -35,6 +35,8 @@ Thumbs.db
 .*/
 .DS_Store
 brewberryPi_v*.app.dSYM/
+brewberryPi_v2.app
+brewberryPi_v2.app.*
 
 # qtcreator generated files
 # *.pro.user*

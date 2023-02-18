@@ -1,5 +1,3 @@
-#include <QDebug>
-
 #ifndef PIGPIO_H
 #define PIGPIO_H
 
