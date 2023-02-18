@@ -15,6 +15,7 @@
 
 // Enable to remove debug outputs throughout code
 //#define QT_NO_DEBUG_OUTPUT
+#define QT_WEB_URL      "ws://{YOUR PUBLIC IP}:81"
 
 void sigHandler(int s) {
     signal(s, SIG_DFL);
@@ -107,7 +108,7 @@ int main(int argc, char *argv[])
     pidHLTThread->setPriority(QThread::HighPriority);
     pidBOILThread->setPriority(QThread::HighPriority);
 
-    WebSocket client(QUrl(QStringLiteral("ws://20.125.115.180:81")), true, RPiDataGlobal);
+    WebSocket client(QUrl(QStringLiteral(QT_WEB_URL)), true, RPiDataGlobal);
 
     engine.load(url);
     if (engine.rootObjects().isEmpty()) return -1;
