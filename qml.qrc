@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Page1Form.qml</file>
+        <file>Page2Form.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>ToggleButton.qml</file>
+        <file>TemperatureChart.qml</file>
+        <file>brewberrySplash.qml</file>
+        <file>Page3Form.qml</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>mainHopsLoadingGreen.png</file>
+        <file>Lower Background Export.png</file>
+        <file>BeerGlass.png</file>
+        <file>Hops.png</file>
+        <file>Yeast.png</file>
+        <file>Grains.png</file>
+    </qresource>
+    <qresource prefix="/recipes">
+        <file>Pumpkin Ale.xml</file>
+        <file>bjcpStyleGuidelines.json</file>
+        <file>English Bitter.xml</file>
+    </qresource>
+</RCC>
