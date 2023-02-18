@@ -11,3 +11,7 @@ All telemtry data is sent through a Web Socket to an external web server, see de
 https://github.com/TyrantUT/brewberryWeb_Docker
 
 Modify the QT_WEB_URL #define in main.cpp to include your public IP
+
+![](https://maketechsecure.com/wp-content/uploads/2023/02/image.png)
+![](https://maketechsecure.com/wp-content/uploads/2023/02/image-8.png)
+![](https://maketechsecure.com/wp-content/uploads/2023/02/image-9.png)
